@@ -1,6 +1,10 @@
 ## Introduction
 
-This is the source code and additional visualization examples of our Radial-GCN, Radial Graph Convolutional Network for Visual Question Generation.
+This is the source code and additional visualization examples of "Radial Graph Convolutional Network for Visual Question Generation", implemented by [Tan Wang](https://github.com/Wangt-CN/).
+
+Xing Xu, Tan Wang, Yang Yang, Alan Hanjalic and Heng Tao Shen. “Radial Graph Convolutional Network for Visual Question Generation”. IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2020
+
+The major contributions of this work are:
 
 1) Different from the existing approaches that typically treat the VQG task as a reversed VQA task, we propose a novel answer-centric approach for the VQG task, which effectively models the associations between the answer and its relevant image regions.
 2)  To our best knowledge, we are the first to apply GCN model for the VQG task and devise a new radial graph structure with graphic attention for superior question generation performance and interpretable model behavior. 
